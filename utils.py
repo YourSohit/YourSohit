@@ -91,7 +91,7 @@ def multi_rip(client, message, streamUrl, channel, recordingDuration, language, 
     video_opts = 'ffmpeg -reconnect 1 -reconnect_at_eof 1 -reconnect_streamed 1 -i'
     video_opts_2 = '-to'
     video_opts_3 = '-map 0:v:0 -map 0:a'
-    filename = f'[MX NITRO] {channel} - {fileTitle} - {ind_time} [{ripQuality}] [x264] {ripType} [{language}].mkv'
+    filename = f'[@DS_Botz] {channel} - {fileTitle} - {ind_time} [{ripQuality}] [x264] {ripType} [{language}].mkv'
     cmd = video_opts.split() + [streamUrl] + video_opts_2.split() + [recordingDuration] + video_opts_3.split() + [filename]
     # process = Popen(cmd, stdout=PIPE, stderr=PIPE)
     # stdout, stderr = process.communicate()
