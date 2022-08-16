@@ -24,7 +24,7 @@ START_TEXT = """<b><i>Hello</i></b> {}
 
 > `{}`
 
-<b>Made by @PokeSensei</b>"""
+<b>Made by @Irfan50786</b>"""
 
 
 
@@ -58,7 +58,7 @@ CHANNELS_TEXT = """<b>Here are the List of Channels : </b>
 SITE_BUTTON = [
     InlineKeyboardButton(
         text='WEBSITE',
-        url='t.me/MXNITRO'
+        url='t.me/Irfan50786'
     )
 ]
 
