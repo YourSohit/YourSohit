@@ -68,7 +68,7 @@ def channel_list(bot, update):
 
     if update.from_user.id in config.AUTH_USERS:
 
-        url = "https://gist.githubusercontent.com/kunanisai/f31766ebbef8884f81938df13f8969d5/raw/bcd674c9b73df5b3ee5cd2ef18dafdc7318edf26/My.json"
+        url = "https://gist.github.com/irfanalibot0/d753755e6514ba4eaf620b00ba8cc6d5/raw/73308f5e99937db5e0bc368c632272ac6eaedf44/My.json"
         response = urlopen(url)
         data_json = json.loads(response.read())
 
