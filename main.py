@@ -20,7 +20,7 @@ Bot = Client(
 
 
 START_TEXT = """<b><i>Hello</i></b> {}
-<b><i>It's a Recording Bot Of Pokesensei.</i></b>
+<b><i>It's a Recording Bot Of @DS_Botz.</i></b>
 
 > `{}`
 
@@ -39,7 +39,7 @@ HELP_TEXT = """<b><i>Hello</i></b> {}
 
 <b><i>Click on the Command to COPY</i></b>
 
-<b>Made by @PokeSensei</b>"""
+<b>Made by @DS_Botz</b>"""
 
 
 
